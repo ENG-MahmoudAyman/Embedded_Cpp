@@ -64,10 +64,12 @@
 #define GPIO_Output_Speed_50M         ((uint8)0x0003u)  /* Max Speed 50MHZ Output Is Selected */
 
 class MCAL_GPIO{
-public:
+private:
+	MCAL_GPIO(){};
 	GPIO_TypeDef *GPIOPort;
 	void MCAL_GPIO_CLK_EN();
-
+	friend class MCAL_GPIO_PORT;
+	friend class MCAL_GPIO_PIN;
 };
 
 #endif /* INC_MCAL_GPIO_H_ */

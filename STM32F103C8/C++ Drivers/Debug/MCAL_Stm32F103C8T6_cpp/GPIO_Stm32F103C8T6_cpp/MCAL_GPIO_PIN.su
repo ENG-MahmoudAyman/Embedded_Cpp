@@ -1,3 +1,4 @@
+MCAL_GPIO.h:68:2:MCAL_GPIO::MCAL_GPIO()	16	static
 MCAL_GPIO_PIN.cpp:13:7:uint8 MCAL_GPIO_PIN::Get_CRLH_Position()	16	static
 MCAL_GPIO_PIN.cpp:53:1:MCAL_GPIO_PIN::MCAL_GPIO_PIN(GPIO_TypeDef*, uint16, uint8, uint8)	24	static
 MCAL_GPIO_PIN.cpp:61:1:MCAL_GPIO_PIN::MCAL_GPIO_PIN(GPIO_TypeDef*, uint16, uint8)	24	static

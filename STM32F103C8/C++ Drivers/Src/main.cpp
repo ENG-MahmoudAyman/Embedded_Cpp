@@ -11,11 +11,9 @@ int main(void){
 while(1){
 		if (PA1.MCAL_GPIO_PIN_Read()) {
 			PortB.MCAL_GPIO_PORT_Write(0xFF);
-			for (uint32 i = 0; i < 6000; i++)
-				;
+			for (uint32 i = 0; i < 6000; i++);
 			PortB.MCAL_GPIO_PORT_Write(0x0);
-			for (int i = 0; i < 6000; i++)
-				;
+			for (int i = 0; i < 6000; i++);
 		} else {
 			PortB.MCAL_GPIO_PORT_Write(0x0);
 		}
