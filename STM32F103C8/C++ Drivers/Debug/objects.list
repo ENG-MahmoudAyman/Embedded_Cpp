@@ -1,0 +1,7 @@
+"MCAL_Stm32F103C8T6_cpp/GPIO_Stm32F103C8T6_cpp/MCAL_GPIO.o"
+"MCAL_Stm32F103C8T6_cpp/GPIO_Stm32F103C8T6_cpp/MCAL_GPIO_PIN.o"
+"MCAL_Stm32F103C8T6_cpp/GPIO_Stm32F103C8T6_cpp/MCAL_GPIO_PORT.o"
+"Src/main.o"
+"Src/syscalls.o"
+"Src/sysmem.o"
+"Startup/startup_stm32f103c8tx.o"
